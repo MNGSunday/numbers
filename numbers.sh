@@ -11,9 +11,9 @@ do
 	if [ $((n%2)) -eq 0 ]
 	then
 		echo "$n even"
-		n=$[n+1]
+		n=$((n+1))
 	else
 		echo "$n odd"
-		n=$[n+1]
+		n=$((n+1))
 	fi
 done
